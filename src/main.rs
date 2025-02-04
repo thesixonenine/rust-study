@@ -5,7 +5,8 @@ fn main() {
     // println!("1 + 2 ={}", add(1, 2));
     // greet_world();
     // guess();
-    let ho = String::from("Hello, world!");
+    let mut ho = String::from("Hello, world!");
+    ho.push_str(" append str");
     println!("println: \n{}", ho);
     println!();
     assert_eq!(ret_unit_type(1), ());
